@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Abdullah Ibrahim Mohamed — Senior Property Consultant | Interactive 3D Egypt Real Estate Portfolio">
+  <defs>
+    <radialGradient id="studio-warm" cx="34%" cy="44%" r="68%">
+      <stop offset="0%" stop-color="#221d17" />
+      <stop offset="58%" stop-color="#191613" />
+      <stop offset="100%" stop-color="#141210" />
+    </radialGradient>
+    <linearGradient id="sea-wash" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#326d7b" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#141210" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Studio Backdrop -->
+  <rect width="1200" height="630" fill="url(#studio-warm)" />
+
+  <!-- Architectural Frame Hairline -->
+  <rect x="28" y="28" width="1144" height="574" rx="10" fill="none" stroke="#eae2d7" stroke-opacity="0.14" stroke-width="1.2" />
+
+  <!-- Left Architectural Maquette Panel -->
+  <g transform="translate(64, 68)">
+    <rect x="0" y="0" width="460" height="494" rx="8" fill="#1b1815" stroke="#eae2d7" stroke-opacity="0.12" stroke-width="1" />
+    <!-- Subtle Mediterranean Coastal Band -->
+    <rect x="1" y="1" width="458" height="108" rx="7" fill="url(#sea-wash)" />
+
+    <!-- Minimalist Architectural Egypt Silhouette -->
+    <path
+      d="M72 108 L108 104 L152 114 L182 126 L208 118 L244 106 L278 108 L314 122 L346 118 L374 126 L362 174 L378 214 L366 254 L344 268 L316 218 L302 204 L298 228 L316 266 L342 320 L372 374 L398 418 L322 418 L224 418 L76 418 L74 340 L64 252 L66 170 Z"
+      fill="#2d2925"
+      stroke="#eae2d7"
+      stroke-opacity="0.24"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+
+    <!-- Inlaid Brushed Brass Nile Valley & Delta Filament -->
+    <path
+      d="M244 416 L264 384 L282 346 L274 304 L264 274 L250 242 L236 206 L246 168 L242 152"
+      fill="none"
+      stroke="#cba152"
+      stroke-width="2.6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M242 152 L222 124 M242 152 L268 114"
+      fill="none"
+      stroke="#cba152"
+      stroke-width="2.1"
+      stroke-linecap="round"
+    />
+
+    <!-- Secondary Active Corridors (Cairo, Giza, North Coast, Red Sea, Sokhna) -->
+    <circle cx="176" cy="126" r="4" fill="#cba152" fill-opacity="0.82" />
+    <circle cx="256" cy="158" r="4.5" fill="#cba152" fill-opacity="0.88" />
+    <circle cx="234" cy="160" r="4" fill="#cba152" fill-opacity="0.82" />
+    <circle cx="290" cy="176" r="4" fill="#cba152" fill-opacity="0.82" />
+    <circle cx="330" cy="264" r="4.5" fill="#cba152" fill-opacity="0.88" />
+
+    <!-- Alexandria Flagship Double-Ring Brass Pin -->
+    <circle cx="204" cy="120" r="14" fill="none" stroke="#cba152" stroke-opacity="0.4" stroke-width="1.2" />
+    <circle cx="204" cy="120" r="8" fill="none" stroke="#cba152" stroke-width="1.6" />
+    <circle cx="204" cy="120" r="3.8" fill="#f3efe7" />
+
+    <!-- Maquette Index Caption -->
+    <text x="26" y="468" fill="#b0a496" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="13" letter-spacing="2">
+      31.185° N · 29.915° E — ALEXANDRIA FLAGSHIP
+    </text>
+  </g>
+
+  <!-- Right Editorial Typography Block -->
+  <g transform="translate(574, 118)">
+    <text x="0" y="0" fill="#cba152" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="2.4">01 · SENIOR PROPERTY CONSULTANT · EGYPT</text>
+    <rect x="0" y="20" width="128" height="1.5" fill="#cba152" />
+
+    <!-- Arabic Primary Headline -->
+    <text
+      x="540"
+      y="96"
+      text-anchor="start"
+      direction="rtl"
+      fill="#f3efe7"
+      font-family="'Cairo', 'IBM Plex Sans Arabic', 'Segoe UI', sans-serif"
+      font-size="48"
+      font-weight="700"
+    >عبدالله ابراهيم محمد</text>
+
+    <!-- English Editorial Name -->
+    <text
+      x="0"
+      y="152"
+      fill="#eae2d7"
+      font-family="'Cormorant Garamond', Georgia, serif"
+      font-size="42"
+      font-weight="600"
+      letter-spacing="-0.4"
+    >Abdullah Ibrahim Mohamed</text>
+
+    <!-- Subtitle (two balanced right-aligned Arabic lines strictly inside 540px column) -->
+    <text
+      x="540"
+      y="202"
+      text-anchor="start"
+      direction="rtl"
+      fill="#b0a496"
+      font-family="'IBM Plex Sans Arabic', 'Cairo', sans-serif"
+      font-size="20"
+    ><tspan x="540" dy="0">مستشار عقاري أول · ماكت 3D تفاعلي</tspan><tspan x="540" dy="30">وخرائط ماستر بلان لأبرز مشاريع مصر</tspan></text>
+
+    <!-- Hairline Separator -->
+    <line x1="0" y1="264" x2="540" y2="264" stroke="#eae2d7" stroke-opacity="0.14" stroke-width="1" />
+
+    <!-- 3 Factual Metrics Strip -->
+    <g transform="translate(0, 316)">
+      <text x="0" y="0" fill="#cba152" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="700">6</text>
+      <text x="0" y="26" fill="#b0a496" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Investment Corridors</text>
+
+      <text x="190" y="0" fill="#cba152" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="700">22</text>
+      <text x="190" y="26" fill="#b0a496" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Verified Master Plans</text>
+
+      <text x="386" y="0" fill="#cba152" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="700">2D / 3D</text>
+      <text x="386" y="26" fill="#b0a496" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Spatial Architecture</text>
+    </g>
+
+    <!-- Corridor Footer -->
+    <text
+      x="540"
+      y="424"
+      text-anchor="start"
+      direction="rtl"
+      fill="#9c9081"
+      font-family="'IBM Plex Sans Arabic', 'Cairo', sans-serif"
+      font-size="15.5"
+    >الإسكندرية · الساحل الشمالي · القاهرة · الجيزة · البحر الأحمر · العين السخنة</text>
+  </g>
+</svg>

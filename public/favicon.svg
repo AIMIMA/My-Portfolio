@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Abdullah Ibrahim Mohamed — Interactive 3D Egypt Real Estate Portfolio">
+  <!-- Warm Obsidian Plinth -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#141210" />
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="none" stroke="#eae2d7" stroke-opacity="0.18" stroke-width="1.2" />
+
+  <!-- Architectural Horizon & Mediterranean Rim Arc -->
+  <path d="M14 23 Q32 17 50 23" fill="none" stroke="#326d7b" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Geometric Nile Valley & Delta Filament in Brushed Brass -->
+  <path
+    d="M32 51 L32 30 M32 30 L22 20 M32 30 L42 20"
+    fill="none"
+    stroke="#cba152"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Compass North Architectural Facet -->
+  <path
+    d="M32 11 L35.5 18 L32 16.2 L28.5 18 Z"
+    fill="#cba152"
+  />
+
+  <!-- Carved Limestone Beacon Marking Alexandria on the Western Delta Rim -->
+  <circle cx="22" cy="20" r="4.4" fill="none" stroke="#cba152" stroke-width="1.2" stroke-opacity="0.7" />
+  <circle cx="22" cy="20" r="2.2" fill="#eae2d7" />
+
+  <!-- Architectural Scale Ticks -->
+  <line x1="18" y1="51" x2="46" y2="51" stroke="#eae2d7" stroke-opacity="0.24" stroke-width="1" stroke-linecap="round" />
+</svg>

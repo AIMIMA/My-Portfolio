@@ -1,0 +1,135 @@
+/* ==========================================================================
+   Atelier Limestone & Warm Obsidian — Design Tokens
+   All foreground/surface pairings verified for WCAG 2.1 AA/AAA contrast.
+   ========================================================================== */
+
+:root {
+  /* Core Architectural Surfaces */
+  --surface-obsidian: hsl(28, 10%, 7%);
+  --surface-basalt: hsl(28, 9%, 11%);
+  --surface-travertine: hsl(30, 10%, 16%);
+  --surface-travertine-hover: hsl(30, 11%, 20%);
+  --surface-glass: hsla(28, 12%, 10%, 0.84);
+  --surface-glass-strong: hsla(28, 11%, 8%, 0.92);
+  --surface-scrim: hsla(28, 12%, 5%, 0.7);
+
+  /* Ink Hierarchy (Carved Limestone & Muted Sand) */
+  --ink-primary: hsl(36, 30%, 88%);
+  --ink-bright: hsl(38, 34%, 93%);
+  --ink-secondary: hsl(33, 14%, 64%);
+  --ink-tertiary: hsl(33, 12%, 56%);
+  --ink-on-brass: hsl(28, 10%, 7%);
+
+  /* Architectural Accents (Brushed Brass, Mediterranean, Terracotta, Olive) */
+  --accent-brass: hsl(39, 54%, 56%);
+  --accent-brass-hover: hsl(40, 62%, 66%);
+  --accent-brass-subtle: hsla(39, 54%, 56%, 0.14);
+
+  /* Note: --accent-mediterranean is for fills/badge backgrounds with --ink-bright;
+     always use --accent-mediterranean-text for small text directly on dark surfaces. */
+  --accent-mediterranean: hsl(192, 42%, 34%);
+  --accent-mediterranean-text: hsl(192, 46%, 56%);
+
+  --accent-terracotta: hsl(20, 44%, 52%);
+  --accent-terracotta-text: hsl(20, 56%, 62%);
+
+  --accent-olive: hsl(130, 18%, 46%);
+  --accent-olive-text: hsl(132, 26%, 60%);
+
+  /* Semantic Status Tokens */
+  --status-success: hsl(142, 34%, 62%);
+  --status-warning: hsl(39, 70%, 62%);
+  --status-error: hsl(8, 68%, 66%);
+  --status-error-bg: hsla(8, 68%, 66%, 0.12);
+
+  /* Master Plan Land-Use Palette (synced 1:1 with ZONE_KIND_META & ZONE_KIND_COLORS) */
+  --zone-residential-villas: #c79a74;
+  --zone-residential-apartments: #dfd3be;
+  --zone-waterfront-lagoon: #2b6e7d;
+  --zone-commercial-promenade: #b8924a;
+  --zone-clubhouse-hospitality: #c9ae7e;
+  --zone-green-park-spine: #4d6b53;
+  --zone-main-gate-access: #8c7a5b;
+  --zone-education-medical: #7a8c94;
+  --zone-roads: #3c3a37;
+
+  /* Hairline Borders & Matte Elevation */
+  --border-hairline: hsla(36, 26%, 82%, 0.12);
+  --border-subtle: hsla(36, 26%, 82%, 0.2);
+  --border-strong: hsla(36, 26%, 82%, 0.34);
+  --border-focus: var(--accent-brass);
+
+  --shadow-panel: 0 20px 48px hsla(24, 20%, 2%, 0.52);
+  --shadow-popover: 0 12px 32px hsla(24, 20%, 2%, 0.44);
+  --shadow-pin: 0 4px 12px hsla(24, 20%, 2%, 0.48);
+
+  /* Subtle Architectural Mineral Plaster Grain Texture (filter-free organic micro-speckles) */
+  --texture-mineral-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='%23ebdcca'%3E%3Crect x='5' y='7' width='1' height='1' opacity='.7'/%3E%3Crect x='23' y='4' width='1' height='1' opacity='.5'/%3E%3Crect x='47' y='11' width='1' height='1' opacity='.8'/%3E%3Crect x='14' y='21' width='1' height='1' opacity='.6'/%3E%3Crect x='36' y='19' width='1' height='1' opacity='.7'/%3E%3Crect x='58' y='26' width='1' height='1' opacity='.5'/%3E%3Crect x='9' y='38' width='1' height='1' opacity='.8'/%3E%3Crect x='29' y='34' width='1' height='1' opacity='.6'/%3E%3Crect x='51' y='43' width='1' height='1' opacity='.7'/%3E%3Crect x='18' y='53' width='1' height='1' opacity='.5'/%3E%3Crect x='41' y='57' width='1' height='1' opacity='.8'/%3E%3Crect x='61' y='51' width='1' height='1' opacity='.6'/%3E%3C/g%3E%3C/svg%3E");
+
+  /* Bilingual Typography Stacks */
+  --font-display-ar: 'Cairo', 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, Arial, sans-serif;
+  --font-body-ar: 'IBM Plex Sans Arabic', 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif;
+  --font-display-en: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body-en: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Active Locale Typography Defaults (Arabic RTL Primary) */
+  --font-display: var(--font-display-ar);
+  --font-body: var(--font-body-ar);
+  --tracking-display: 0;
+  --tracking-eyebrow: 0;
+  --leading-display: 1.28;
+  --leading-body: 1.65;
+
+  /* Fluid Type Scale */
+  --text-hero: clamp(1.95rem, 3.4vw, 3.15rem);
+  --text-2xl: clamp(1.4rem, 2.1vw, 1.9rem);
+  --text-xl: 1.2rem;
+  --text-lg: 1.05rem;
+  --text-base: 0.9375rem;
+  --text-sm: 0.8125rem;
+  --text-xs: 0.75rem;
+
+  /* Spacing Scale (4px rhythm) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Structural Dimensions */
+  --nav-height: 60px;
+  --drawer-width: 392px;
+  --inspector-width: 380px;
+  --touch-min: 44px;
+
+  /* Architectural Corner Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Deterministic Z-Index Ladder */
+  --z-map: 10;
+  --z-hero-canvas: 20;
+  --z-hero-overlay: 30;
+  --z-map-markers: 35;
+  --z-hud-dock: 40;
+  --z-drawer: 50;
+  --z-topnav: 60;
+  --z-toast: 70;
+  --z-modal-backdrop: 80;
+  --z-modal: 90;
+  --z-skip-link: 100;
+
+  /* Architectural Motion Curve & Durations */
+  --ease-architectural: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 260ms;
+  --duration-slow: 420ms;
+}

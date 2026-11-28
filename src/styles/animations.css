@@ -1,0 +1,62 @@
+/* ==========================================================================
+   State-Driven Functional Micro-Transitions (Zero Passive Page Autoplay)
+   ========================================================================== */
+
+@keyframes panelReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toastEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pinRingExpand {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+}
+
+.anim-panel-reveal {
+  animation: panelReveal var(--duration-base) var(--ease-architectural) both;
+}
+
+.anim-toast-enter {
+  animation: toastEnter var(--duration-fast) var(--ease-architectural) both;
+}
+
+.map-project-pin--active::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  border: 1px solid var(--accent-brass);
+  pointer-events: none;
+  animation: pinRingExpand 1.4s var(--ease-architectural) 1 both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-panel-reveal,
+  .anim-toast-enter,
+  .map-project-pin--active::after {
+    animation: none !important;
+  }
+}
